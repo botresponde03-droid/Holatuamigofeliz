@@ -259,11 +259,12 @@ client.once('ready', () => {
     client.user.setPresence({
         status: 'available',
         activity: {
-            name: 'solo MacHUB 🔒',
+            name: 'Mc R',
             type: 'WATCHING',
             url: 'https://discord.com/'
         }
     });
+    console.log('Bot iniciado correctamente');
 });
 
 var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
