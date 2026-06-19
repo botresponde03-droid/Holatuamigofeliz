@@ -29,7 +29,7 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**► ¡Ataque finalizado 💥**")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
@@ -44,7 +44,7 @@ console.log('Iniciando ataque ID Discord:' +  message.guild.id)
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
   .setDescription("**Usuario**: `" + message.author.username + "` \n **Servidor**: `" + host + "` \n **Método**: `Bypass Normal AntiDDoS 💥` \n **Tiempo**: `60 segundos 🕒`")	
   .setFooter('© Developer: Mac#1770', client.user.avatarURL)

@@ -30,7 +30,7 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**► ¡Ataque finalizado 💥**")
 	.setFooter('© Developer: Mac#1770.', client.user.avatarURL)
@@ -45,7 +45,7 @@ console.log('Iniciando ataque ID Discord:' +  message.guild.id)
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**Usuario**: `" + message.author.username + "` \n **Servidor**: `" + host + "` \n **Puerto**: `" + port + "` \n **Versión**: `" + protocol + "`\n \n **Método**: `BotJoiner 💥` \n **Cantidad de Bots**: `10.000 🚀` \n **Tiempo**: `120 segundos 🕒`")
 	.setFooter('© Developer: Mac#1770.', client.user.avatarURL)

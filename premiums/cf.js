@@ -29,7 +29,7 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**► Attack Stop 💥**")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
@@ -44,7 +44,7 @@ console.log('Start Attacking ID Discord:' +  message.guild.id)
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**User**: `PREMIUM ☭` \n **Host**: `" + host + "` \n **Method**: `Cloudflare Bypass 💥` \n **Time**: `60 seconds 🕒`")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
