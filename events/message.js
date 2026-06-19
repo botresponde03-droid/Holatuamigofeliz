@@ -10,8 +10,21 @@ module.exports = message => {
   }, 2500);
   let client = message.client;
   if (message.author.bot) return;
-  if (!message.content.startsWith(ayarlar.prefix)) return;
-  let command = message.content.split(' ')[0].slice(ayarlar.prefix.length);
+  
+  // Soportar múltiples prefijos
+  const prefixes = Array.isArray(ayarlar.prefix) ? ayarlar.prefix : [ayarlar.prefix];
+  let prefix = null;
+  
+  for (let p of prefixes) {
+    if (message.content.startsWith(p)) {
+      prefix = p;
+      break;
+    }
+  }
+  
+  if (!prefix) return;
+  
+  let command = message.content.split(' ')[0].slice(prefix.length);
   let params = message.content.split(' ').slice(1);
   let perms = client.elevation(message);
   let cmd;
@@ -25,3 +38,4 @@ module.exports = message => {
   }
 
 };
+
