@@ -11,7 +11,13 @@ module.exports = message => {
   let client = message.client;
   if (message.author.bot) return;
   const prefixes = Array.isArray(ayarlar.prefix) ? ayarlar.prefix : [ayarlar.prefix];
-  const usedPrefix = prefixes.find(p => message.content.startsWith(p));
+  let usedPrefix = null;
+  for (let i = 0; i < prefixes.length; i++) {
+    if (message.content.startsWith(prefixes[i])) {
+      usedPrefix = prefixes[i];
+      break;
+    }
+  }
   if (!usedPrefix) return;
   let command = message.content.split(' ')[0].slice(usedPrefix.length);
   let params = message.content.split(' ').slice(1);
