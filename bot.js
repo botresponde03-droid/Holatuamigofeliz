@@ -259,7 +259,7 @@ client.once('ready', () => {
     client.user.setPresence({
         status: 'available',
         activity: {
-            name: 'credit: zxcr9999',
+            name: 'solo MacHUB 🔒',
             type: 'WATCHING',
             url: 'https://discord.com/'
         }
