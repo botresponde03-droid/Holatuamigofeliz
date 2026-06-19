@@ -32,7 +32,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
 	.setDescription("**► ¡Ataque finalizado 💥**")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
  message.channel.send(embed);
@@ -47,7 +47,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
   .setDescription("**Usuario**: `" + message.author.username + "` \n **Servidor**: `" + host + "` \n **Método**: `Bypass Normal AntiDDoS 💥` \n **Tiempo**: `60 segundos 🕒`")	
-  .setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+  .setFooter('© Developer: Mac#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(randomgif)
 	.setThumbnail("")
@@ -63,6 +63,6 @@ exports.conf = {
 
 exports.help = {
   name: 'bypass',
-  description: 'zxcr9999',
+  description: 'Mac',
   usage: 'bypass'
 }
