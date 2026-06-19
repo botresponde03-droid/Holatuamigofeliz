@@ -30,7 +30,7 @@ fs.readdir("./attacks/", (err, files) => {
   if(err) console.log(err);
   let jsfile = files.filter(f => f.split(".").pop() === "js");
   if(jsfile.length <= 0) {
-    console.log(new Error("An error occu.red!"));
+    console.log(new Error("¡Un error ocurrió!"));
     process.exit(1);
     return;
   }
@@ -98,7 +98,7 @@ fs.readdir("./premiums/", (err, files) => {
   if(err) console.log(err);
   let jsfile = files.filter(f => f.split(".").pop() === "js");
   if(jsfile.length <= 0) {
-    console.log(new Error("An error occu.red!"));
+    console.log(new Error("¡Un error ocurrió!"));
     process.exit(1);
     return;
   }
@@ -166,7 +166,7 @@ fs.readdir("./admin/", (err, files) => {
   if(err) console.log(err);
   let jsfile = files.filter(f => f.split(".").pop() === "js");
   if(jsfile.length <= 0) {
-    console.log(new Error("An error occu.red!"));
+    console.log(new Error("¡Un error ocurrió!"));
     process.exit(1);
     return;
   }
