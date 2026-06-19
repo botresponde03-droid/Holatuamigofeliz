@@ -15,7 +15,7 @@ exec(`pkill 'go'`, (error, stdout, stderr) => {
 console.log('Deteniendo todos los ataques:' +  message.guild.id)
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**► ¡Todos los ataques han sido detenidos! 💥**")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)

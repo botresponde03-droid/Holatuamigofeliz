@@ -29,7 +29,7 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**► Cuộc tấn công đã kết thúc 💥**")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
@@ -44,7 +44,7 @@ console.log('Start Attacking ID Discord:' +  message.guild.id)
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**Người Dùng**: `PREMIUM ☭` \n **Máy Chủ**: `" + host + "` \n **Phương Thức**: `ExtraDowned 💥` \n **Thời gian**: `60 giây 🕒`")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)

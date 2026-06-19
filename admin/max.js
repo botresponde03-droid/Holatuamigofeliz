@@ -31,7 +31,7 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**► ¡Ataque finalizado 💥**")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
@@ -46,7 +46,7 @@ console.log('Iniciando ataque ID Discord:' +  message.guild.id)
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🔥 **ZER0 BOT** 🔥')
+	.setTitle('🔥 **Mc R** 🔥')
 	.setTimestamp()
 	.setDescription("**Usuario**: `PREMIUM ☭` \n **Servidor**: `" + host + "` \n **Método**: `Flood 💥` \n **Tiempo**: `60 segundos 🕒` \n **Si detectamos que atacas sitios .gov/.edu, serás baneado del servidor**")
 	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
