@@ -18,7 +18,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
 	.setDescription("**► ¡Todos los ataques han sido detenidos! 💥**")
-	.setFooter('© Developer: zxcr999#1770', client.user.avatarURL)
+	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
  message.channel.send(embed);
@@ -33,6 +33,6 @@ exports.conf = {
 
 exports.help = {
   name: 'stopgo',
-  description: 'zxcr999',
+  description: 'Mac',
   usage: 'stopgo'
 }
