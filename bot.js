@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const { Client } = require('discord.js');
 const client = new Discord.Client();
 const chalk = require('chalk');
@@ -259,7 +259,7 @@ client.once('ready', () => {
     client.user.setPresence({
         status: 'available',
         activity: {
-            name: 'credit: zxcr9999',
+            name: 'solo MacHUB 🔒',
             type: 'WATCHING',
             url: 'https://discord.com/'
         }
