@@ -142,7 +142,7 @@ BYTES_SEND = Counter()
 
 
 class Tools:
-    IP = compile("(?:\d{1,3}\.){3}\d{1,3}")
+    IP = compile(r"(?:\d{1,3}\.){3}\d{1,3}")
 
     @staticmethod
     def humanbytes(i: int, binary: bool = False, precision: int = 2):
