@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const { Client } = require('discord.js');
 const client = new Discord.Client();
 const chalk = require('chalk');
@@ -12,18 +12,6 @@ var prefix = ayarlar.prefix;
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
-/*fs.readdir('./attacks/', (err, files) => {
-  if (err) console.error(err);
-  log(`${files.length} attacks loading.`);
-  files.forEach(f => {
-    let props = require(`./attacks/${f}`);
-    log(`Attack: ${props.help.name}.`);
-    client.commands.set(props.help.name, props);
-    props.conf.aliases.forEach(alias => {
-      client.aliases.set(alias, props.help.name);
-    });
-  });
-});*/
 
 fs.readdir("./attacks/", (err, files) => {
 
@@ -259,7 +247,7 @@ client.once('ready', () => {
     client.user.setPresence({
         status: 'available',
         activity: {
-            name: 'credit: zxcr9999',
+            name: 'Mac',
             type: 'WATCHING',
             url: 'https://discord.com/'
         }
@@ -267,9 +255,6 @@ client.once('ready', () => {
 });
 
 var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
-// client.on('debug', e => {
-//   console.log(chalk.bgBlue.red(e.replace(regToken, 'that was.redacted')));
-// });
 
 client.on('warn', e => {
   console.log(chalk.b.red(e.replace(regToken, 'that was.redacted')));
@@ -280,3 +265,4 @@ client.on('error', e => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
+
