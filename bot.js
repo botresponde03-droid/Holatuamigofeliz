@@ -259,7 +259,7 @@ client.once('ready', () => {
     client.user.setPresence({
         status: 'available',
         activity: {
-            name: 'Mc R',
+            name: 'Vigilando España 🇪🇸',
             type: 'WATCHING',
             url: 'https://discord.com/'
         }

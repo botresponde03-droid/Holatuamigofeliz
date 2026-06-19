@@ -5,9 +5,9 @@ const ayarlar = require('../ayarlar.json');
 var prefix = ayarlar.prefix;
 
 const girismesaj = [
-  '**Bot Added to Server',
-  '**McDeath Bot** provides convenience to people on your server',
-  'Bot Has All Kinds of Commands'
+  '**Bot añadido al servidor**',
+  '**ZER0 BOT** ofrece comodidad a los usuarios de tu servidor',
+  'El bot tiene todo tipo de comandos'
 ]
 
 client.on('guildCreate', guild => {

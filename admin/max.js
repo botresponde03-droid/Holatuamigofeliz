@@ -15,9 +15,9 @@ if (message.channel.id != room) {
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('WARRING')
-	.setDescription("`Example: ;flood https://example.com/`")
-	.setFooter("Please do not attack websites with domain .gov/.edu")
+	.setTitle('⚠️ ADVERTENCIA')
+	.setDescription("`Ejemplo: ;flood https://ejemplo.com/`")
+	.setFooter("Por favor no ataque sitios web con dominio .gov/.edu")
 	message.channel.send(embed1);
 	return;
 	}
@@ -33,8 +33,8 @@ const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**► The attack has stopped 💥**")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setDescription("**► El ataque ha sido detenido 💥**")
+	.setFooter('© Desarrollador: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
  message.channel.send(embed);
@@ -43,13 +43,12 @@ var gifler = ["https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif", "htt
     var randomgif = gifler[Math.floor((Math.random() * gifler.length))];
 console.log('Start Attacking ID Discord:' +  message.guild.id)
 
-
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**User**: `PREMIUM ☭` \n **Host**: `" + host + "` \n **Method**: `Flood 💥` \n **Time**: `60 seconds 🕒` \n **If we detect you attack the .gov/.edu website, we will ban you from the server**")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setDescription("**Usuario**: `PREMIUM ☭` \\n **Host**: `" + host + "` \\n **Método**: `Flood 💥` \\n **Tiempo**: `60 segundos 🕒` \\n **Si detectamos que ataca sitios .gov/.edu, será baneado del servidor**")
+	.setFooter('© Desarrollador: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(randomgif)
 	.setThumbnail("")

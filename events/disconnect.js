@@ -1,3 +1,3 @@
 module.exports = client => {
-  console.log(`Offline! ${new Date()}`);
+  console.log(`¡Desconectado! ${new Date()}`);
 };

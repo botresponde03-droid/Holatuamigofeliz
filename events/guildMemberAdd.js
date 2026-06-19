@@ -39,13 +39,13 @@ member.setNickname(`${tag} ${member.user.username}`)
 
   if(db.has(`tagKanal_${member.guild.id}`) === true) {
     if(tagKD === "var") {
-      member.guild.channels.get(tagK).send(`**${member.user.tag}** to \`${db.fetch(`tagB_${member.guild.id}`)}\` By giving the tag set as, the user's name is \`${member.nickname || `${db.fetch(`tagB_${member.guild.id}`)} ${member.user.username}`}\` is set to!`)
+      member.guild.channels.get(tagK).send(`**${member.user.tag}** ha recibido la etiqueta \`${db.fetch(`tagB_${member.guild.id}`)}\` y su nombre ha sido establecido como \`${member.nickname || `${db.fetch(`tagB_${member.guild.id}`)} ${member.user.username}`}\`!`)
   }}};
 //Sayaç
   if (db.has(`sayac_${member.guild.id}`) === true) {
     if (db.has(`sKanal_${member.guild.id}`) === true) {
     const channel = db.fetch(`sKanal_${member.guild.id}`)
-    member.guild.channels.get(channel).send(`**${member.user.tag}** Joined the server! \`${db.fetch(`sayac_${member.guild.id}`)}\` stop being a member \`${db.fetch(`sayac_${member.guild.id}`) - member.guild.members.size}\` member remained!`)
+    member.guild.channels.get(channel).send(`**${member.user.tag}** ¡se ha unido al servidor! Quedan \`${db.fetch(`sayac_${member.guild.id}`) - member.guild.members.size}\` miembros para alcanzar \`${db.fetch(`sayac_${member.guild.id}`)}\`!`)
     }};
   
   //Otorol
@@ -62,7 +62,7 @@ member.setNickname(`${tag} ${member.user.username}`)
   
     if (db.has(`otoRK_${member.guild.id}`) === true) {
       if(kanalD === "var"){
-    member.guild.channels.get(db.fetch(`otoRK_${member.guild.id}`)).send(`**${member.user.tag}** has been successfully set to an automatic role **${rol.name}** The role was given!`)
+    member.guild.channels.get(db.fetch(`otoRK_${member.guild.id}`)).send(`**${member.user.tag}** ha recibido automáticamente el rol **${rol.name}** ¡con éxito!`)
   }}}};
   
 };

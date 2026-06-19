@@ -8,7 +8,7 @@ var prefix = ayarlar.prefix;
 module.exports = client => {
 
     
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Active, Commands loaded!`);
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} Logged in with the name!`);
+  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Activo, ¡comandos cargados!`);
+  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ¡ha iniciado sesión correctamente!`);
   client.user.setStatus("online");
 };

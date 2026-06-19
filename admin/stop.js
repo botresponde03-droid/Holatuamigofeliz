@@ -12,13 +12,13 @@ if (message.channel.id != room) {
 var exec = require('child_process').exec
 exec(`pkill 'python'`, (error, stdout, stderr) => {
 });
-console.log('Dừng lại tất cả cuộc tấn công:' +  message.guild.id)
+console.log('Deteniendo todos los ataques:' +  message.guild.id)
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**► HẾT GIỜ TẤN CÔNG RỒI -_- 💥**")
-	.setFooter('© Developer: zxcr999#1770', client.user.avatarURL)
+	.setDescription("**► El ataque ha sido detenido 💥**")
+	.setFooter('© Desarrollador: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
  message.channel.send(embed);
