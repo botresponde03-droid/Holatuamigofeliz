@@ -14,11 +14,11 @@ module.exports.run = async (bot, message, args) => {
     fs.writeFileSync('proxies.txt', ' ');
     const request = https.get(url, function(response) {
         response.pipe(file)
-        console.log(`[${moment.utc(Date.now())}] [*] Cập thành công từ cơ sở dữ liệu proxy.`)
+        console.log(`[${moment.utc(Date.now())}] [*] Proxies actualizados correctamente desde la base de datos.`)
     });
     const embed = new Discord.MessageEmbed()
-    .setTitle("Cập nhật thành công")
-    .setDescription(`Proxy được cài đặt trong tập tin **${file.path}**`)
+    .setTitle("Actualización exitosa")
+    .setDescription(`Proxies instalados en el archivo **${file.path}**`)
     message.channel.send(embed)
 }
 
