@@ -15,7 +15,7 @@
 
 # Credits
 ```sh
-zxcr9999
+Mac
 (Thank for using <3)
 ```
 
@@ -32,6 +32,6 @@ LATEST RELEASE AND WITHOUT ANY ERROR
 
 # CONTACT:
 ```sh
-Telegram: @zxcr9999
-Discord: zxcr9999#1770
+Telegram: @Mac
+Discord: Mac#1770
 ```

@@ -33,7 +33,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
 	.setDescription("**► Attack Stop 💥**")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
  message.channel.send(embed);
@@ -48,7 +48,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
 	.setDescription("**User**: `PREMIUM ☭` \n **Host**: `" + host + "` \n **Method**: `OVH-RAW 💥` \n **Time**: `60 seconds 🕒`")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(randomgif)
 	.setThumbnail("")
@@ -64,6 +64,6 @@ exports.conf = {
 
 exports.help = {
   name: 'ovhraw',
-  description: 'zxcr9999',
+  description: 'Mac',
   usage: 'ovhraw'
 }

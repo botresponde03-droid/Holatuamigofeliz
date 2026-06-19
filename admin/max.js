@@ -34,7 +34,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
 	.setDescription("**► ¡Ataque finalizado 💥**")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setThumbnail("")
  message.channel.send(embed);
@@ -49,7 +49,7 @@ const embed = new Discord.MessageEmbed()
 	.setTitle('🔥 **ZER0 BOT** 🔥')
 	.setTimestamp()
 	.setDescription("**Usuario**: `PREMIUM ☭` \n **Servidor**: `" + host + "` \n **Método**: `Flood 💥` \n **Tiempo**: `60 segundos 🕒` \n **Si detectamos que atacas sitios .gov/.edu, serás baneado del servidor**")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setFooter('© Developer: Mac#1770', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(randomgif)
 	.setThumbnail("")
@@ -65,6 +65,6 @@ exports.conf = {
 
 exports.help = {
   name: 'flood',
-  description: 'zxcr9999',
+  description: 'Mac',
   usage: 'flood'
 }
